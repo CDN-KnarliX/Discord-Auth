@@ -1,0 +1,40 @@
+{
+  "name": "discord-auth",
+  "version": "1.0.0",
+  "description": "Lightweight Discord OAuth2 authentication service with guild membership validation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 5000",
+    "build": "next build",
+    "start": "next start -p 5000",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KnarliX/Discord-Auth.git"
+  },
+  "keywords": [
+    "discord",
+    "oauth2",
+    "authentication",
+    "nextjs",
+    "guild-verification",
+    "serverless"
+  ],
+  "author": "KnarliX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KnarliX/Discord-Auth/issues"
+  },
+  "homepage": "https://github.com/KnarliX/Discord-Auth#readme",
+  "packageManager": "pnpm@10.18.1",
+  "dependencies": {
+    "@types/node": "^24.7.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
+    "next": "^15.5.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "typescript": "^5.9.3"
+  }
+}
